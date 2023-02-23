@@ -1,0 +1,1 @@
+Local para armazenar meus projetos de linguagem python.

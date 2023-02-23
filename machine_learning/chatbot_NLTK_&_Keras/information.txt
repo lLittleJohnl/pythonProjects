@@ -1,0 +1,5 @@
+Sobre o Projeto
+
+Neste projeto Python com código-fonte, vamos construir um chatbot usando técnicas de deep learning. O chatbot será treinado no conjunto de dados que contém categorias (intenções), padrão e respostas. Usamos uma rede neural recorrente especial (LSTM) para classificar a qual categoria a mensagem do usuário pertence e então daremos uma resposta aleatória da lista de respostas.
+
+Vamos criar um chatbot baseado em recuperação usando NLTK, Keras, Python, etc.

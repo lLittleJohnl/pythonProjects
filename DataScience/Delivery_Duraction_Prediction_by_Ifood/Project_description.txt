@@ -1,0 +1,15 @@
+Para criar um modelo preditivo em Python que possa prever o tempo estimado de entrega do iFood, seguimos os seguintes passos:
+
+Coleta de dados: O primeiro passo é coletar dados históricos de entregas anteriores do iFood. Esses dados podem incluir informações como hora do dia, dia da semana, localização do restaurante, localização do cliente, tempo de espera, tempo de entrega real, entre outras informações relevantes.
+
+Prepararação dos dados: Depois de coletar os dados, é importante limpar, preparar e pré-processar os dados para serem utilizados em um modelo de aprendizado de máquina. Isso pode incluir a remoção de valores ausentes, a codificação de variáveis categóricas e a normalização de variáveis numéricas.
+
+Seleção de um modelo: Existem diversos modelos de aprendizado de máquina que podem ser utilizados para prever o tempo de entrega do iFood, tais como regressão linear, árvores de decisão, random forests, redes neurais, entre outros. A escolha do modelo dependerá da complexidade dos dados e do objetivo da análise.
+
+Treino do modelo: Depois de selecionar o modelo, é preciso treiná-lo com os dados históricos. Isso envolve a divisão dos dados em um conjunto de treinamento e um conjunto de validação, e a configuração dos parâmetros do modelo para obter os melhores resultados.
+
+Avaliação do modelo: Após treinar o modelo, é necessário avaliá-lo para medir sua eficácia na previsão do tempo de entrega do iFood. Isso pode ser feito usando métricas como erro médio absoluto, erro médio quadrático, R-squared, entre outras.
+
+Fazer previsões: Com o modelo treinado e avaliado, é possível utilizá-lo para fazer previsões de tempo de entrega para novos pedidos do iFood. Isso pode ser feito alimentando o modelo com as informações do pedido, como localização do restaurante, localização do cliente, tempo de espera, entre outras, e obtendo uma previsão de tempo de entrega.
+
+Algumas bibliotecas populares do Python para análise de dados e construção de modelos de aprendizado de máquina são pandas, scikit-learn e TensorFlow. Para o iFood, pode ser interessante também considerar o uso de dados de terceiros, como informações de trânsito e condições meteorológicas, para melhorar a precisão do modelo.
